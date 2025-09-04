@@ -1,0 +1,5 @@
+print(" __|__|__")
+print("| ()  () |")
+print("| UUUUUU |")
+print("|_UUUUUU_|")   
+print("  |    |  ")
