@@ -1,0 +1,59 @@
+body {
+    cursor: text;
+}
+
+nav {
+    background-color: #333;
+    width: 800px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    border-radius: 5px 5px 5px 5px;
+    background-image: linear-gradient(to right, #333, black);
+
+}
+
+
+a {
+    color: aqua; background-color: navy; 
+    padding: 3px 5px 3px 5px; border-radius: 
+    5px 5px 5px 5px; margin: 2px;
+    text-decoration: none;
+    font-weight: 550;
+}
+a:hover {
+    color: navy; background-color: aqua; 
+    padding: 3px 5px 3px 5px; border-radius: 
+    5px 5px 5px 5px; margin: 2px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 1s;
+    cursor: crosshair;
+}
+
+a:visited {
+    color: aqua; background-color: navy; 
+    padding: 3px 5px 3px 5px; border-radius: 
+    5px 5px 5px 5px; margin: 2px;
+    text-decoration: none;
+    font-weight: 550
+}
+
+a:active {
+    color: aqua; background-color: navy; 
+    padding: 3px 5px 3px 5px; border-radius: 
+    5px 5px 5px 5px; margin: 2px;
+    text-decoration: none;
+    font-weight: 550
+}
+
+footer {
+    width: 800px;
+    background-color: #333;
+    color: #fff;
+    height: 300px;
+    padding-top: 10px;
+    /* background-image: radial-gradient(circle, grey, black); */
+        background-image: radial-gradient(circle, rgb(137, 130, 130),#000000, #1b1a1a, rgb(37, 34, 34));
+}
